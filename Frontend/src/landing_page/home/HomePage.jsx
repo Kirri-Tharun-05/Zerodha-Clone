@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "./Hero";
+import Hero from "./Hero.jsx";
 import Invest from "./Invest";
 import Trust from "./Trust";
 import Pricing from "./Pricing";
@@ -10,14 +10,14 @@ import Education from "./Education";
 function HomePage() {
     return (
         <>
-            {/* <Navbar /> */}
+            <Navbar />
             <Hero />
-            {/* <Invest />
+            <Invest />
             <Trust/>
             <Pricing />
             <Education/>
             <OpenAccount />
-            <Footer /> */}
+            <Footer />
         </>
     );
 }
