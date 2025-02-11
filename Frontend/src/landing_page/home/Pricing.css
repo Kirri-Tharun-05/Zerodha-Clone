@@ -1,0 +1,31 @@
+.link img{
+    width: 1.5rem;
+}
+.link a{
+    text-decoration: none;
+}
+.pic-block
+{
+    display: flex;
+}
+.pic-block img{
+    position: relative;
+    width: 7rem;
+}
+.pic-block p{
+    position:absolute;
+    font-size: 0.8rem;
+}
+
+.right-block{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 4rem; */
+}
+.right-block p{
+    margin-top:2rem ;
+    margin-left:6rem ;
+}
+.blo-1{
+    padding-left: 1rem;
+}
