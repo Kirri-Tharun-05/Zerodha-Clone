@@ -1,7 +1,13 @@
 function Hero() {
     return (
         <>
-            <h1>Hero Section</h1>
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <h3>Support Portal</h3>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }

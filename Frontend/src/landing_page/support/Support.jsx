@@ -9,4 +9,4 @@ function Support() {
         </>
     );
 }
-export default Hero; 
+export default Support; 
