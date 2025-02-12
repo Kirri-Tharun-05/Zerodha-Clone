@@ -1,8 +1,9 @@
 function LeftImage() {
     return (
         <>
-            <h1>Left Image Section</h1>
+            <h1>LeftImage Section</h1>
         </>
     );
 }
-export default LeftImage; 
+
+export default LeftImage;
