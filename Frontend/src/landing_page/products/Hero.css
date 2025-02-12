@@ -1,0 +1,16 @@
+.product-hero{
+    line-height: 3rem;
+    margin: 5rem 10rem ;
+}
+.product-hero h1{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom:0.8rem ;
+}
+.product-hero p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.product-body {
+    margin: 0 12rem;
+}

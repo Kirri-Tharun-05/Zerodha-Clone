@@ -1,4 +1,13 @@
-/* .container p {
-    font-size: 2rem;
-    font-weight: 0;
-} */
+.about-hero{
+    margin: 7rem ;
+    padding:0 10rem;
+}
+
+.hero-info{
+    margin: 7rem 11rem;
+    gap: 3rem;
+}
+.hero-info p{
+    font-size: 1.06rem;
+    line-height: 2rem;
+}
