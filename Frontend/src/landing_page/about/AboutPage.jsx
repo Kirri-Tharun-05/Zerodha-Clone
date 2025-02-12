@@ -4,7 +4,7 @@ function AboutPage(){
 return(
     <>
     <Hero/>
-    <People/>
+    {/* <People/> */}
     </>
 );
 }

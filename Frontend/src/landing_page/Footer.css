@@ -5,6 +5,7 @@
     font-size: 1rem;
     padding: 0 7rem;
     flex-wrap: wrap;             /* Allow wrapping on smaller screens */
+    
 }
 
 .footer-links a {
@@ -12,4 +13,8 @@
     font-size: 0.8rem;
     font-weight: 500;
     color: #585b5e;
+}
+
+.col a{
+    text-decoration: none;
 }

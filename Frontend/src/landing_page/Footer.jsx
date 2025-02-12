@@ -36,7 +36,7 @@ function Footer() {
                             <a href="">Status of your complaints</a><br />
                         </div>
                         <div className="col ">
-                            <p >Account</p><br />
+                            <p >Account</p>
                             <a href="">Open an account</a><br />
                             <a href="">Fund transfer</a><br />
                         </div>

@@ -10,14 +10,12 @@ import Education from "./Education";
 function HomePage() {
     return (
         <>
-            <Navbar />
             <Hero />
             <Invest />
-            <Trust/>
+            <Trust />
             <Pricing />
-            <Education/>
+            <Education />
             <OpenAccount />
-            <Footer />
         </>
     );
 }

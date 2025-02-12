@@ -7,6 +7,7 @@ import Pricing from './landing_page/pricing/Pricing'
 import Support from './landing_page/support/Support'
 import Navbar from './landing_page/Navbar'
 import Footer from './landing_page/Footer'
+import PageNotFound from './landing_page/PageNotFound'
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           <Route path='/products' element={<Products />} />
           <Route path='/pricing' element={<Pricing />} />
           <Route path='/support' element={< Support />} />
+          <Route path='*' element={< PageNotFound />} />
         </Routes >
         <Footer />
       </BrowserRouter >
