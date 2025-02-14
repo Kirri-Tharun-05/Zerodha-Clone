@@ -11,34 +11,34 @@ function Footer() {
                             <p className="mt-4" style={{ fontSize: "0.9rem" }}>© 2010 - 2025, Zerodha Broking Ltd.<br />
                                 All rights reserved.</p>
                         </div>
-                        <div className="col " style={{ textDecoration: "none" }}>
+                        <div className="col" style={{ textDecoration: "none" }}>
                             <p>Company</p>
-                            <a href="">About</a><br />
-                            <a href="">Products</a><br />
-                            <a href="">Pricing</a><br />
-                            <a href="">Referral programme</a><br />
-                            <a href="">Careers</a><br />
-                            <a href="">Zerodha.tech</a><br />
-                            <a href="">Open source</a><br />
-                            <a href="">Press & media</a><br />
-                            <a href="">Zerodha Cares (CSR)</a><br />
+                            <a href="" className="text-muted">About</a><br />
+                            <a href="" className="text-muted">Products</a><br />
+                            <a href="" className="text-muted">Pricing</a><br />
+                            <a href="" className="text-muted">Referral programme</a><br />
+                            <a href="" className="text-muted">Careers</a><br />
+                            <a href="" className="text-muted">Zerodha.tech</a><br />
+                            <a href="" className="text-muted">Open source</a><br />
+                            <a href="" className="text-muted">Press & media</a><br />
+                            <a href="" className="text-muted">Zerodha Cares (CSR)</a><br />
                         </div>
                         <div className="col ">
                             <p>Support</p>
-                            <a href="">Contact us</a><br />
-                            <a href="">Support portal</a>  <br /> .
-                            <a href="">Z-Connect blog</a><br />
-                            <a href="">List of charges</a><br />
-                            <a href="">Downloads & resources</a><br />
-                            <a href="">Videos</a><br />
-                            <a href="">Market overview</a><br />
-                            <a href="">How to file a complaint?</a><br />
-                            <a href="">Status of your complaints</a><br />
+                            <a href="" className="text-muted">Contact us</a><br />
+                            <a href="" className="text-muted">Support portal</a>  <br /> .
+                            <a href="" className="text-muted">Z-Connect blog</a><br />
+                            <a href="" className="text-muted">List of charges</a><br />
+                            <a href="" className="text-muted">Downloads & resources</a><br />
+                            <a href="" className="text-muted">Videos</a><br />
+                            <a href="" className="text-muted">Market overview</a><br />
+                            <a href="" className="text-muted">How to file a complaint?</a><br />
+                            <a href="" className="text-muted">Status of your complaints</a><br />
                         </div>
                         <div className="col ">
                             <p >Account</p>
-                            <a href="">Open an account</a><br />
-                            <a href="">Fund transfer</a><br />
+                            <a href="" className="text-muted">Open an account</a><br />
+                            <a href="" className="text-muted">Fund transfer</a><br />
                         </div>
                     </div>
                     <div>
@@ -58,15 +58,15 @@ function Footer() {
                                 "Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please create a ticket here.
                             </p>
                         </div>
-                        <div className="footer-links mb-4"  style={{ fontSize: "1rem", padding: "0 7rem",}}>
-                                <a href="">NSE</a>
-                                <a href="">BSE</a>
-                                <a href="">Terms & conditions</a>
-                                <a href="">Policies & procedures</a>
-                                <a href="">Privacy policy</a>
-                                <a href="">Disclosure</a>
-                                <a href="">For investor's attention</a>
-                                <a href="">Investor charter</a>
+                        <div className="footer-links mb-4" style={{ fontSize: "1rem", padding: "0 7rem", }}>
+                            <a href="">NSE</a>
+                            <a href="">BSE</a>
+                            <a href="">Terms & conditions</a>
+                            <a href="">Policies & procedures</a>
+                            <a href="">Privacy policy</a>
+                            <a href="">Disclosure</a>
+                            <a href="">For investor's attention</a>
+                            <a href="">Investor charter</a>
                         </div>
                     </div>
                 </div>
