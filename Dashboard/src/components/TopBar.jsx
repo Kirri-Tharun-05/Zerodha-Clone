@@ -2,7 +2,7 @@ import React from "react";
 
 import Menu from "./Menu";
 
-const TopBar = () => {
+function TopBar() {
   return (
     <div className="topbar-container">
       <div className="indices-container">

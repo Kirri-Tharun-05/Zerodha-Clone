@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Orders = () => {
+function Orders (){
   return (
     <div className="orders">
       <div className="no-orders">

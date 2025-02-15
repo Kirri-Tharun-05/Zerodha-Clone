@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Funds = () => {
+function Funds (){
   return (
     <>
       <div className="funds">

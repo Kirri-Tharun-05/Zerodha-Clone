@@ -1,6 +1,6 @@
 import React from "react";
 
-const Apps = () => {
+function Apps(){
   return <h1>Apps</h1>;
 };
 
