@@ -144,38 +144,12 @@ function Changes() {
                             <p className="mb-3" style={{ fontSize: "0.8rem" }}>Female demat account holders (as first holder) will enjoy a discount of ₹0.25 per transaction on the CDSL fee.</p>
                             <p className="mb-3" style={{ fontSize: "0.8rem" }}> Debit transactions of mutual funds & bonds get an additional discount of ₹0.25 on the CDSL fee.</p>
 
-
-
-
-
-
-
-
-
                             <p className="mb-3" style={{ fontSize: '1.3rem' }}>Pledging charges</p>
                             <p className="mb-3" style={{ fontSize: "0.8rem" }}>₹30 + GST per pledge request per ISIN.</p>
 
                             <p className="mb-3" style={{ fontSize: '1.3rem' }}> AMC (Account maintenance charges)</p>
                             <p className="mb-3" style={{ fontSize: "0.8rem" }}> For BSDA demat account: Zero charges if the holding value is less than ₹4,00,000. To learn more about BSDA, <a href="" style={{ textDecoration: "none" }}>Click here</a></p>
                             <p className="mb-3" style={{ fontSize: "0.8rem" }}>  For non-BSDA demat accounts: ₹300/year + 18% GST charged quarterly (90 days). To learn more about AMC, <a href="" style={{ textDecoration: "none" }}>Click here</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                             <p className="mb-3" style={{ fontSize: '1.3rem' }}>  Corporate action order charges</p>
                             <p className="mb-3" style={{ fontSize: "0.8rem" }}>  ₹20 plus GST will be charged for OFS / buyback / takeover / delisting orders placed through Console.</p>
@@ -203,8 +177,70 @@ function Changes() {
                             </ul>
                         </div>
                     </div>
+                    <div className="row text-muted mt-3 mb-5">
+                        <p style={{ fontSize: '1.3rem' }}>Disclaimer</p>
+                        <p style={{ fontSize: "0.8rem" }}>For Delivery based trades, a minimum of ₹0.01 will be charged per contract note. Clients who opt to receive physical contract notes will be charged ₹20 per contract note plus courier charges. Brokerage will not exceed the rates specified by SEBI and the exchanges. All statutory and regulatory charges will be levied at actuals. Brokerage is also charged on expired, exercised, and assigned options contracts. Free investments are available only for our retail individual clients. Companies, Partnerships, Trusts, and HUFs need to pay 0.1% or ₹20 (whichever is less) as delivery brokerage. A brokerage of 0.25% of the contract value will be charged for contracts where physical delivery happens. For netted off positions in physically settled contracts, a brokerage of 0.1% will be charged.</p>
+                    </div>
+                    <div className="row">
+                        <p className="mt-5 fs-3" style={{ fontWeight: '400' }}>Charges for account opening</p>
+                        <table>
+                            <thead className="p-5" style={{ border: '1px solid rgba(66, 66, 66, 0.2)' }}>
+                                <tr>
+                                    <th style={{ padding: '1rem', fontWeight: "500" }} className="col-10">Type of account</th>
+                                    <th style={{ padding: '1em', fontWeight: "500" }} className="col-2">Charges</th>
+                                </tr>
+                            </thead>
+                            <tbody style={{ border: '1px solid rgba(66, 66, 66, 0.2)', borderTop: '0px' }}>
+                                <tr>
+                                    <td style={{ padding: '1rem' }} className="col-10">Online account</td>
+                                    <td style={{ padding: '1rem' }} className="col-2"> <span style={{ backgroundColor: "green", textTransform: "uppercase", fontSize: '11px', fontWeight: '500', color: '#fff', background: '#4caf50', padding: '4px 10px' }}>Free</span></td>
+                                </tr>
+                                <tr style={{ backgroundColor: "rgba(66, 66, 66, 0.04)" }}>
+                                    <td style={{ padding: '1rem' }} className="col-10">Offline account</td>
+                                    <td style={{ padding: '1rem' }} className="col-2"> <span style={{ backgroundColor: "green", textTransform: "uppercase", fontSize: '11px', fontWeight: '500', color: '#fff', background: '#4caf50', padding: '4px 10px' }}>Free</span></td>
+                                </tr>
+                                <tr>
+                                    <td style={{ padding: '1rem' }} className="col-10">NRI account (offline only)</td>
+                                    <td style={{ padding: '1rem' }} className="col-2">₹ 500</td>
+                                </tr>
+                                <tr style={{ backgroundColor: "rgba(66, 66, 66, 0.04)" }}>
+                                    <td style={{ padding: '1rem' }} className="col-10">Partnership, LLP, HUF, or Corporate accounts (offline only)</td>
+                                    <td style={{ padding: '1rem' }} className="col-2">₹ 500</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div className="row mt-3 mb-5">
+                        <p className="mt-5 fs-3" style={{ fontWeight: '400' }}>Charges for optional value added services</p>
+                        <table>
+                            <thead className="p-5" style={{ border: '1px solid rgba(66, 66, 66, 0.2)' }}>
+                                <tr>
+                                    <th style={{ padding: '1rem', fontWeight: "500" }}>Service</th>
+                                    <th style={{ padding: '1em', fontWeight: "500" }}>Billing Frquency</th>
+                                    <th style={{ padding: '1em', fontWeight: "500" }} >Charges</th>
+                                </tr>
+                            </thead>
+                            <tbody style={{ border: '1px solid rgba(66, 66, 66, 0.2)', borderTop: '0px' }}>
+                                <tr>
+                                    <td style={{ padding: '1rem' }} >Tickertape</td>
+                                    <td style={{ padding: '1rem' }} >Monthly / Annual</td>
+                                    <td style={{ padding: '1rem' }} >Free: 0 | Pro: 249/2399</td>
+                                </tr>
+                                <tr style={{ backgroundColor: "rgba(66, 66, 66, 0.04)" }}>
+                                    <td style={{ padding: '1rem' }} >Smallcase</td>
+                                    <td style={{ padding: '1rem' }} >Per transaction</td>
+                                    <td style={{ padding: '1rem' }} >Buy & Invest More: 100 | SIP: 10</td>
+                                </tr>
+                                <tr>
+                                    <td style={{ padding: '1rem' }} >Kite Connect</td>
+                                    <td style={{ padding: '1rem' }} >Monthly</td>
+                                    <td style={{ padding: '1rem' }} >Connect: 2000 | Historical: 2000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div>
+            </div >
         </>
     );
 }
