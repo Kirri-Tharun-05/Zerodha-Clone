@@ -739,6 +739,10 @@ hr {
   font-weight: 400;
   font-size: 0.8rem;
   border: 0.7px solid #4184f3;
+  transition: 0.5 ease-in-out;
+}
+.buy:hover{
+  background-color: #3268be;
 }
 
 .sell {
@@ -747,6 +751,10 @@ hr {
   font-weight: 400;
   font-size: 0.8rem;
   border: 0.7px solid #ff5722;
+  transition: 0.5 ease-in-out;
+}
+.sell:hover{
+  background-color:#cf441a ;
 }
 
 .action {
