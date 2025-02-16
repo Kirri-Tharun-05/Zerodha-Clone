@@ -11,7 +11,7 @@ function WatchListItem({ stock }) {
         setshowWatchListAction(true);
     }
     const handleMouseLeave = (event) => {
-        showWatchListAction(false);
+        setshowWatchListAction(false);
     }
 
     return (

@@ -1,8 +1,14 @@
+import React,{useContext} from 'react';
 import { Tooltip, Grow } from '@mui/material';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import GeneralContext from "./GeneralContext";
 function WatchListActions({ uid }) {
+    const generalContext = useContext(GeneralContext);
 
+    const handleBuyClick = () => {
+      generalContext.openBuyWindow(uid);
+    };
     return (
         <span className="actions">
             <span>

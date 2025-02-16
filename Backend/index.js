@@ -7,9 +7,13 @@ const Order = require('./models/orderSchema');
 const Position = require('./models/positionSchema');
 const PORT = process.env.PORT || 3000;
 const URL = process.env.MONGO_URL;
-
+const bodyParser=require('body-parser');
+const cors=require('cors');
 const app = express();
 
+
+app.use(cors());
+app.use(bodyParser.json());
 // app.get('/addholdings', async (req, res) => {
 //     let tempHoldings = [
 //         {
@@ -243,6 +247,14 @@ const app = express();
 //     res.send("Done !");
 // })
 
+app.get('/allHoldings',async(req,res)=>{
+    let allHoldings=await Holding.find({});
+    res.json(allHoldings);
+})
+app.get('/allPositions',async(req,res)=>{
+    let allPositions=await Position.find({});
+    res.json(allPositions);
+})
 mongoose.connect(URL,
     console.log("connected TO MongoDB")
 )
