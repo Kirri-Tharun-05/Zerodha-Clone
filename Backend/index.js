@@ -7,8 +7,8 @@ const Order = require('./models/orderSchema');
 const Position = require('./models/positionSchema');
 const PORT = process.env.PORT || 3000;
 const URL = process.env.MONGO_URL;
-const bodyParser=require('body-parser');
-const cors=require('cors');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 const app = express();
 
 
@@ -247,13 +247,25 @@ app.use(bodyParser.json());
 //     res.send("Done !");
 // })
 
-app.get('/allHoldings',async(req,res)=>{
-    let allHoldings=await Holding.find({});
+app.get('/allHoldings', async (req, res) => {
+    let allHoldings = await Holding.find({});
     res.json(allHoldings);
 })
-app.get('/allPositions',async(req,res)=>{
-    let allPositions=await Position.find({});
+app.get('/allPositions', async (req, res) => {
+    let allPositions = await Position.find({});
     res.json(allPositions);
+})
+
+app.post('/newOrder', async (req, res) => {
+    console.log(req.body);
+    let newOrder = new Order({
+        name: req.body.name,
+        price: req.body.price,
+        percent: req.body.percent,
+        isDown: req.body.isDown,
+        mode: req.body.mode
+    })
+    newOrder.save();
 })
 mongoose.connect(URL,
     console.log("connected TO MongoDB")

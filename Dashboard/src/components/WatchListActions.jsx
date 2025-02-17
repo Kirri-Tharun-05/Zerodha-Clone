@@ -12,7 +12,7 @@ function WatchListActions({ uid }) {
     return (
         <span className="actions">
             <span>
-                <Tooltip title="Buy (B)" placement='top' arrow>
+                <Tooltip title="Buy (B)" placement='top' arrow onClick={handleBuyClick}>
                     <button className='buy'>Buy</button>
                 </Tooltip>
                 <Tooltip title="Sell (S)" placement='top' arrow>
