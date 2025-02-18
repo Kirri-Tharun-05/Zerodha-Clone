@@ -1,5 +1,4 @@
 import React from "react";
-import './Trust.css'
 function Trust() {
     return (
         <>

@@ -1,0 +1,293 @@
+/* ✅ Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* ✅ About Page */
+  .about-hero {
+    margin: 7rem auto;
+    padding: 0 10rem;
+  }
+  
+  .hero-info {
+    margin: 7rem 11rem;
+    gap: 3rem;
+  }
+  
+  .hero-info p {
+    font-size: 1.06rem;
+    line-height: 2rem;
+  }
+  
+  /* ✅ People Section */
+  .founder-img img {
+    width: 18rem;
+    border-radius: 50%;
+  }
+  
+  .founder {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .founder-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .found {
+    margin: 0 auto;
+    padding-bottom: 10rem;
+    max-width: 90%;
+  }
+  
+  /* ✅ Pricing */
+  .link img {
+    width: 1.5rem;
+  }
+  
+  .link a {
+    text-decoration: none;
+  }
+  
+  .pic-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .pic-block img {
+    position: relative;
+    width: 7rem;
+  }
+  
+  .pic-block p {
+    position: absolute;
+    font-size: 0.8rem;
+  }
+  
+  .right-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .right-block p {
+    margin-top: 2rem;
+    margin-left: 6rem;
+  }
+  
+  .blo-1 {
+    padding-left: 1rem;
+  }
+  
+  /* ✅ Trust Section */
+  .main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+  }
+  
+  .subpart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 8rem;
+  }
+  
+  .main-img img {
+    width: 90%;
+    max-width: 100%;
+  }
+  
+  /* ✅ Image Links */
+  .img-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .img-links img {
+    width: 1.5rem;
+  }
+  
+  .img-links a {
+    text-decoration: none;
+  }
+  
+  /* ✅ Education */
+  .varsity-img img {
+    width: 80%;
+    max-width: 100%;
+  }
+  
+  .varsity-text p {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+  
+  /* ✅ Product Hero Section */
+  .product-hero {
+    line-height: 3rem;
+    margin: 5rem auto;
+    text-align: center;
+    max-width: 80%;
+  }
+  
+  .product-hero h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 0.8rem;
+  }
+  
+  .product-hero p {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  
+  .product-body {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  
+  /* ✅ Support Section */
+  .portal {
+    padding: 0 5rem;
+  }
+  
+  /* ✅ Footer */
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1rem;
+    padding: 0 7rem;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #585b5e;
+  }
+  
+  .col a {
+    text-decoration: none;
+  }
+  
+  /* ✅ Navbar */
+  .nav-link {
+    margin-left: 2rem;
+  }
+  
+  .navbar-brand {
+    margin-left: 3rem;
+  }
+  
+  /* ================================ */
+  /* 📱 RESPONSIVE DESIGN */
+  /* ================================ */
+  
+  /* 🌐 Tablets (768px and below) */
+  @media (max-width: 768px) {
+    .about-hero, 
+    .hero-info, 
+    .product-hero, 
+    .product-body {
+      padding: 0 5rem;
+      margin: 5rem auto;
+    }
+  
+    .right-block {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .right-block p {
+      margin-left: 0;
+    }
+  
+    .main {
+      flex-direction: column;
+      padding: 3rem;
+      text-align: center;
+    }
+  
+    .subpart {
+      padding-right: 0;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .portal {
+      padding: 0 2rem;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-link {
+      margin-left: 0;
+    }
+  }
+  
+  /* 📱 Mobile Devices (480px and below) */
+  @media (max-width: 480px) {
+    .about-hero, 
+    .hero-info, 
+    .product-hero, 
+    .product-body {
+      padding: 0 2rem;
+      margin: 3rem auto;
+    }
+  
+    .hero-info p,
+    .product-hero p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  
+    .founder-img img {
+      width: 12rem;
+    }
+  
+    .footer-links {
+      gap: 1rem;
+      font-size: 0.8rem;
+      padding: 0 2rem;
+    }
+  
+    .navbar-brand {
+      margin-left: 0;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+    }
+  
+    .main {
+      padding: 2rem;
+    }
+  
+    .main-img img {
+      width: 100%;
+    }
+  }
+  

@@ -1,4 +1,3 @@
-import './People.css'
 function People() {
     return (
         <>
