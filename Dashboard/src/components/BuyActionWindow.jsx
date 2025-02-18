@@ -12,7 +12,13 @@ function BuyActionWindow({uid}){
     const [stockPrice,setstockPrice]=useState(0.0);
 
     const handleBuyClick=()=>{
-        axios.post('http://localhost:3000/newOrder',{})
+        axios.post('http://localhost:3000/newOrder',{
+            name: uid,
+            qty:stockQuantity,
+            price: stockPrice,
+            mode: 'Buy'
+        })
+        GeneralContext.closeBuyWindow();
     }
     const handleCancelClick=()=>{
         GeneralContext.closeBuyWindow();
@@ -34,7 +40,7 @@ function BuyActionWindow({uid}){
             <div className="buttons">
                 <span>Margin required 140.65</span>
                 <div>
-                    <Link className="btn btn-blue">Buy</Link>
+                    <Link className="btn btn-blue" onClick={handleBuyClick}>Buy</Link>
                     <Link to="" className="btn btn-gray" onClick={handleCancelClick}>
                         Cancel
                     </Link>

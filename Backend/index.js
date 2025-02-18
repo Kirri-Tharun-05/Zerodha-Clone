@@ -260,9 +260,8 @@ app.post('/newOrder', async (req, res) => {
     console.log(req.body);
     let newOrder = new Order({
         name: req.body.name,
+        qty:req.body.qty,
         price: req.body.price,
-        percent: req.body.percent,
-        isDown: req.body.isDown,
         mode: req.body.mode
     })
     newOrder.save();
