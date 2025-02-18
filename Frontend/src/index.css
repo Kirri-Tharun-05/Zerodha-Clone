@@ -162,3 +162,37 @@ margin: auto;
 .navbar-brand{
   margin-left: 3rem;
 }
+
+/* revel image and text */
+.reveal-container {
+  display: flex;
+  opacity: 0; /* Initially hide the elements */
+  transform: translateY(50px); /* Push the elements down */
+  transition: opacity 1s ease-out, transform 1s ease-out; /* Transition properties */
+}
+
+.reveal-container.visible {
+  opacity: 1;
+  transform: translateY(0); /* Bring the elements up to their original position */
+}
+
+.reveal-img {
+  width: 100%;
+  height: auto;
+  transition: transform 1s ease;
+}
+
+.reveal-text {
+  font-size: 20px;
+  color: #333;
+  padding: 20px;
+  transition: opacity 1s ease;
+}
+
+.reveal-container.visible .reveal-img {
+  transform: scale(1.05); /* Optional zoom effect */
+}
+
+.reveal-container.visible .reveal-text {
+  opacity: 1; /* Fade in the text */
+}

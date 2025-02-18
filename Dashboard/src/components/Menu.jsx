@@ -18,9 +18,9 @@ function Menu() {
   return (
 
 
-    <div className="menu-container">
+    <div className="menu-container ">
       <img src="logo.png" style={{ width: "50px" }} />
-      <div className="menus">
+      <div className="menus mt-4">
         <ul>
           <li>
             <Link style={{ textDecoration: 'none' }} to='/' onClick={() => handleMenuClick(0)}>
