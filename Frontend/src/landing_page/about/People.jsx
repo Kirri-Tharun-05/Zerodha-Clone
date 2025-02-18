@@ -18,11 +18,6 @@ function People() {
                         <p><a href="">Connect on Homepage</a> / <a href="">TradingQnA </a>/ <a href=""> Twitter</a></p>
                     </div>
                 </div>
-                {/* <div className='row'>
-                    <div className="col"><img src="" alt="" /></div>
-                    <div className="col"></div>
-                    <div className="col"></div>
-                </div> */}
             </div>
         </>
     );
