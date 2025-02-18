@@ -266,6 +266,10 @@ app.post('/newOrder', async (req, res) => {
     })
     newOrder.save();
 })
+app.get('/allOrders',async(req,res)=>{
+    let allOrders= await Order.find({});
+    res.json(allOrders);
+})
 mongoose.connect(URL,
     console.log("connected TO MongoDB")
 )

@@ -1,15 +1,37 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React,{useState,useEffect} from "react";
+import axios from 'axios'
 
-function Orders (){
+function Orders() {
+  const [allOrders,setallOrders]=useState([]);
+  useEffect(()=>{
+    axios.get('http://localhost:3000/allOrders').then((res)=>{
+      setallOrders(res.data)
+    })
+  },[]);
   return (
     <div className="orders">
-      <div className="no-orders">
+      <div className="">
         <p>You haven't placed any orders today</p>
-
-        <Link to={"/"} className="btn">
-          Get started
-        </Link>
+        <div className="order-table">
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Mode</th>
+            </tr>
+            {allOrders.map((stock, index) => {
+              return (
+                <tr key={index}>
+                  <td>{stock.name}</td>
+                  <td>{stock.qty}</td>
+                  <td>{stock.price}</td>
+                  <td>{stock.mode}</td>
+                </tr>
+              );
+            })}
+          </table>
+        </div>
       </div>
     </div>
   );
