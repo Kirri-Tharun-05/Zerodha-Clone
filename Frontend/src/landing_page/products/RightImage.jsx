@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-
+import React from 'react'
 function RightImage({ imageURL, productName, productDescription, learnMore }) {
     useEffect(() => {
         const revealElements = document.querySelectorAll('.reveal-container');

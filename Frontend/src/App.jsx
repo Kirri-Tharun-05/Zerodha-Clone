@@ -1,3 +1,4 @@
+import React from 'react'
 import HomePage from './landing_page/home/HomePage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './landing_page/about/AboutPage'

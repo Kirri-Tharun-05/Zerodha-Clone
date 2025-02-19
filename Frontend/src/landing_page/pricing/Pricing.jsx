@@ -1,3 +1,4 @@
+import React from 'react'
 import Hero from "./Hero";
 import Changes from "./Changes"
 function Pricing() {

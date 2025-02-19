@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-
+import React from 'react'
 function LeftImage({ imageURL, productName, productDescription, tryDemo, learnMore, googlePlay, appStore }) {
     useEffect(() => {
         const revealElements = document.querySelectorAll('.reveal-container');

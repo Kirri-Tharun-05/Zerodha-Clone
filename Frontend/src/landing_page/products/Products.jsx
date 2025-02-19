@@ -2,7 +2,7 @@ import Hero from "./Hero";
 import LeftImage from "./LeftImage";
 import RightImage from "./RightImage";
 import Universe from "./Universe";
-
+import React from 'react'
 function Products() {
     return (
         <>
