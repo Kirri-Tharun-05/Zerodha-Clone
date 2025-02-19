@@ -32,7 +32,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist', // Output folder for production build
-    minify: 'terser', // Enables minification for performance
+    minify: false, // Enables minification for performance
     sourcemap: false, // Disable source maps to reduce bundle size
     chunkSizeWarningLimit: 500, // Avoid chunk size warnings
   }
