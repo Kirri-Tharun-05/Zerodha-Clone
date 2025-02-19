@@ -12,6 +12,6 @@ export default defineConfig({
     host: '0.0.0.0',
     port: process.env.PORT || 5173, // Use Render's assigned port
     strictPort: true, // Ensures Vite doesn't pick a random port
-    allowedHosts: ['zerodha-clone-dashboard-zf0s.onrender.com'] // Allow your deployed domain
+    allowedHosts: ['zerodha-clone-sr5m.onrender.com'] // Allow your deployed domain
   }
 });
