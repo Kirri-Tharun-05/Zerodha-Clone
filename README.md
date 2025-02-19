@@ -5,7 +5,7 @@ A **Zerodha trading platform clone**, including the **Kite app clone**, built us
 ---
 
 ## 🚀 Live Demo
-🔗 **https://zerodha-clone-sr5m.onrender.com(#)** _(Hosted on Render - Initial load may take ~30s)_
+🔗 **https://zerodha-clone-sr5m.onrender.com** _(Hosted on Render - Initial load may take ~30s)_
 
 ## 📂 Project Structure
 This project consists of **two separate React applications**:
