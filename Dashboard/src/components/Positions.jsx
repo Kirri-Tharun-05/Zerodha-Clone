@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { positions } from "../data/data";
 import axios from "axios";
-
-require('dotenv').config();
 function Positions (){
   const [allPositions,setallPositions]=useState([]);
   useEffect(()=>{
-    axios.get(`${process.env.BACKEND_URL}/allPositions`).then((res)=>{
+    axios.get(`${import.meta.env.BACKEND_URL}/allPositions`).then((res)=>{
         setallPositions(res.data);
     })
   },[]);

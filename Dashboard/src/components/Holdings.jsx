@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import { holdings } from '../data/data'
 import { VerticalGraph } from "./VerticalGraph";
-require('dotenv').config();
 
 function Holdings() {
   const [allHoldings, setallHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get(`${process.env.BACKEND_URL}/allHoldings`).then((res) => {
+    axios.get(`${import.meta.env.BACKEND_URL}/allHoldings`).then((res) => {
       setallHoldings(res.data);
       console.log(res.data);
     })

@@ -1,11 +1,11 @@
 import React,{useState,useEffect} from "react";
 import axios from 'axios'
 
-require('dotenv').config();
+
 function Orders() {
   const [allOrders,setallOrders]=useState([]);
   useEffect(()=>{
-    axios.get(`${process.env.BACKEND_URL}/allOrders`).then((res)=>{
+    axios.get(`${import.meta.env.BACKEND_URL}/allOrders`).then((res)=>{
       setallOrders(res.data)
     })
   },[]);
