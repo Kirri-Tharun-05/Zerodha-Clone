@@ -4,7 +4,7 @@ import axios from "axios";
 function Positions (){
   const [allPositions,setallPositions]=useState([]);
   useEffect(()=>{
-    axios.get(`${import.meta.env.BACKEND_URL}/allPositions`).then((res)=>{
+    axios.get(`${import.meta.env.VITE_BACKEND_URL}allPositions`).then((res)=>{
         setallPositions(res.data);
     })
   },[]);

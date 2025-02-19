@@ -6,9 +6,6 @@ function Orders() {
   const [allOrders, setallOrders] = useState([]);
   useEffect(() => {
     axios.get(`${import.meta.env.VITE_BACKEND_URL}allOrders`).then((res)=>{
-      console.log(import.meta.env.VITE_BACKEND_URL);
-      console.log(typeof res);
-
       setallOrders(res.data)
     })
   //   axios.get(`${import.meta.env.VITE_BACKEND_URL}allOrders`).then((res) => {

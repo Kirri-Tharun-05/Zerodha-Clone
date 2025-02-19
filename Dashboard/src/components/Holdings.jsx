@@ -7,7 +7,7 @@ function Holdings() {
   const [allHoldings, setallHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get(`${import.meta.env.BACKEND_URL}/allHoldings`).then((res) => {
+    axios.get(`${import.meta.env.VITE_BACKEND_URL}allHoldings`).then((res) => {
       setallHoldings(res.data);
       console.log(res.data);
     })
