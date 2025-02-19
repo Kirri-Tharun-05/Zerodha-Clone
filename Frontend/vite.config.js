@@ -5,7 +5,7 @@
 // export default defineConfig({
 //   plugins: [react()],
 // })
-// import { defineConfig } from 'vite';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   server: {
