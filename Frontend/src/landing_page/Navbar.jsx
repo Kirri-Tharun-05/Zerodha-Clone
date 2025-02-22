@@ -18,7 +18,7 @@ function Navbar() {
                                 <Link className="nav-link" to={'/products'}>Products</Link>
                             </li>
                             <li class="nav-item">
-                                <Link className="nav-link" to={'https://zerodha-clone-dashboard-zf0s.onrender.com'} target="_blank" rel="noopener noreferrer">Kite</Link>
+                                <Link className="nav-link" to={'https://zerodha-clone-dashboard-three.vercel.app'} target="_blank" rel="noopener noreferrer">Kite</Link>
                             </li>
                             <li class="nav-item">
                                 <Link className="nav-link" to={'/pricing'}>Pricing</Link>
